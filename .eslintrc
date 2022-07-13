@@ -16,11 +16,10 @@
     "sourceType": "module"
   },
   "rules": {
-    "no-unused-vars" :"off",
-    "comma-style":"error",
+    "@typescript-eslint/no-unused-vars": ["warn", { "argsIgnorePattern": "^_" }],
+    "no-unused-vars" : ["warn", { "argsIgnorePattern": "^_" }],
     "semi":"error",
     "no-empty" :"off",
-    "no-empty-function" : "off",
     "prefer-const": "off"
   }
 }
